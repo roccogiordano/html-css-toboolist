@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color:whitesmoke
+    background-color: whitesmoke
 }
 
 header {
@@ -15,14 +15,16 @@ header {
 }
 
 main {
-    background-color: white;
     margin-inline: auto;
     max-width: 950px;
     margin-top: 30px;
 }
 
 #btn-row {
-   height: 36px;
+    height: 36px;
+    background-color: white;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 button {
@@ -45,4 +47,92 @@ button:hover {
     background-color: deepskyblue;
     border-color: deepskyblue;
     margin-left: 36px;
+}
+
+#task-list {
+    background-color: white;
+    margin-top: 1px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#task-list>section {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.section-title {
+    margin-left: 46px;
+    font-weight: 500;
+}
+
+.triangle {
+    margin-right: 5px;
+    font-size: 8px;
+}
+
+.task {
+    margin-left: 36px;
+    padding: 3px 0;
+}
+
+.checkmark {
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 1px 5px;
+    color: green;
+    margin-right: 5px;
+}
+
+.cross {
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 1px 4px;
+    color: red;
+    margin-right: 5px;
+}
+
+#new-task {
+    padding-top: 26px;
+}
+
+#today-task {
+    margin: 26px 0;
+}
+
+#upcoming-task {
+    padding-bottom: 26px;
+}
+
+.ctg {
+    border-radius: 9999px;
+    margin-left: 5px;
+    color: white;
+    font-size: 6px;
+    font-weight: 400;
+    padding: 4px;
+}
+
+#editorial {
+    background-color: deepskyblue;
+}
+
+#q1-goals {
+    background-color: blueviolet;
+}
+
+#recruiting {
+    background-color: rgb(47, 255, 116);
+}
+
+#mobile {
+    background-color: orange;
+}
+
+#website {
+    background-color: deeppink;
+}
+
+#sales {
+    background-color: greenyellow;
 }

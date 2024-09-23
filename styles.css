@@ -13,3 +13,36 @@ header {
 #logo {
     padding: 7px 15px;
 }
+
+main {
+    background-color: white;
+    margin-inline: auto;
+    max-width: 950px;
+    margin-top: 30px;
+}
+
+#btn-row {
+   height: 36px;
+}
+
+button {
+    border-radius: 3px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: lightgray;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 3px 10px;
+    margin-top: 7.5px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#task-btn {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+    margin-left: 36px;
+}
